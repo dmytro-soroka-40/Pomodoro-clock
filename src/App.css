@@ -1,0 +1,63 @@
+:root {
+  --red: #dc563c;
+  --green: #79bc54;
+}
+
+body {
+  background-color: #faf9ff;
+  color: #395f95;
+}
+
+main {
+  max-width: 340px;
+  margin: 0 auto;
+  padding-top: 50px;
+
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  width: 100px;
+
+  background-color: transparent;
+  color: rgba(57, 95, 149, 0.8);
+  border: none;
+
+  cursor: pointer;
+}
+
+button.with-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  margin: 0 auto;
+  padding: 10px 20px;
+
+  background-color: rgba(57, 95, 149, 0.2);
+  border-radius: 10px;
+  font-size: 1.4rem;
+  line-height: 36px;
+
+  transition: background-color 0.3s ease;
+}
+
+button.with-text:hover {
+  background-color: rgba(57, 95, 149, 0.1);
+
+  transition: background-color 0.3s ease;
+}
+
+button.with-text svg {
+  width: 36px;
+  margin-right: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 25px;
+
+  text-transform: capitalize;
+}
